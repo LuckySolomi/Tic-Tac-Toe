@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #171717;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.mainHeader {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 14rem;
+  border-bottom: 1px solid #454545;
+  color: white;
+}
+
+header p {
+  font-size: 20px;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+.scoreContainer {
+  display: flex;
+  align-items: center;
+}
+
+.header_button {
+  width: 61px;
+  height: 36px;
+  margin-left: 30px;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px 0px #1018280d;
+  background: #00ae1c;
+  color: white;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.3s;
+}
+
+.header_button:hover {
+  background: #015d10;
+}
+
+.playersField {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.playersField::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 100%;
+  background-color: #454545;
+}
+
+.componentContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.border {
+  height: auto;
+  border-right: 1px solid #454545;
+}
+
+.winColor {
+  color: #00ae1c;
+}
+
+.lostColor {
+  color: #ff5620;
+}

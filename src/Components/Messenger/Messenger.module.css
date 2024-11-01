@@ -1,0 +1,98 @@
+.messengerContainer {
+  width: 640px;
+  height: 484px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #454545;
+  margin-top: 20px;
+  border-radius: 8px 8px 0 0;
+  background: #313131;
+  color: white;
+}
+
+.messengerHeader {
+  width: 640px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #454545;
+  border-radius: 8px 8px 0 0;
+  background: #222222;
+}
+
+.headerCircle {
+  width: 32px;
+  height: 32px;
+  margin: 0 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #454545;
+}
+
+.textField {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 22rem;
+  padding: 20px;
+  overflow: auto;
+}
+
+.message {
+  padding: 8px 12px;
+  margin: 4px 0;
+  border-radius: 8px;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.ownMessage {
+  background-color: #00ae1c;
+  color: white;
+  align-self: flex-end;
+}
+
+.otherMessage {
+  background-color: #737373;
+  color: white;
+  align-self: flex-start;
+}
+
+.inputContainer {
+  position: relative;
+  width: 600px;
+  height: 56px;
+  margin-top: 10px;
+}
+
+.messengerInput {
+  width: 600px;
+  height: 56px;
+  padding: 20px;
+  padding-right: 40px;
+  border: 1px solid #8b8b8b;
+  border-radius: 8px;
+  background: #424242;
+  color: white;
+}
+
+input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.sendIcon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  border: 0;
+  background: transparent;
+}
